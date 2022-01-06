@@ -7,7 +7,8 @@ const Home = () => {
   return (
     <div className={styles.body}>
       <h1>My Todos</h1>
-      <Todo />
+      <Todo text="Todo 1" />
+      <Todo text="Todo 2" />
     </div>
   );
 };

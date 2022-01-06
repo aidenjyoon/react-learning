@@ -1,9 +1,9 @@
 import styles from "../styles/Home.module.scss";
 
-const Todo = () => {
+const Todo = (props) => {
   return (
     <div className={styles.card}>
-      <h2>Task 1</h2>
+      <h2>{props.text}</h2>
       <div>
         <button className={styles.btn}>Delete</button>
       </div>
