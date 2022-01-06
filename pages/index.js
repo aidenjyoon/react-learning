@@ -1,16 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
+import styles from "../styles/Home.module.scss";
+import Todo from "../components/Todo";
 
 const Home = () => {
   return (
-    <div>
+    <div className={styles.body}>
       <h1>My Todos</h1>
-      <div className="card">
-        <h1>Task 1</h1>
-        <div>
-          <button>Delete</button>
-        </div>
-      </div>
+      <Todo />
     </div>
   );
 };

@@ -1,0 +1,32 @@
+.body {
+  margin: 3rem;
+  h1,
+  h2 {
+    color: #333333;
+  }
+}
+
+.card {
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  width: 30vw;
+}
+
+.btn {
+  background-color: #eb0909;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #eb0909;
+}
+.btn:hover {
+  background-color: #ff2929;
+  border-color: #ff2929;
+}
+
+.btn--alt {
+  background-color: transparent;
+  color: #800040;
+}
