@@ -1,7 +1,7 @@
 import style from "../styles/Home.module.scss";
 
-const Backdrop = () => {
-  return <div className={style.backdrop}></div>;
+const Backdrop = (props) => {
+  return <div className={style.backdrop} onClick={props.onClick}></div>;
 };
 
 export default Backdrop;
